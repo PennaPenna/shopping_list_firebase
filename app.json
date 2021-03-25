@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "My-Places",
+    "slug": "my-places",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "React Native  app where you can save addresses and show them on the map.\n- MapQuest.api (geocoding)\n- React Native Navigation\n- React Native UI Elements",
+    "githubUrl": "https://github.com/PennaPenna/shopping-list-w-react-native-ui-elements"
+  }
+}
